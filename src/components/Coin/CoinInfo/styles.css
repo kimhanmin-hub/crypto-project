@@ -1,0 +1,18 @@
+.coin-info-desc{
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+
+.coin-info-heading{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* 한글 버전에선 링크가 포함되지 않음.*/
+.coin-info-desc a{
+    text-decoration: underline !important;
+}
+.coin-info-desc a:hover{
+    color: var(--blue) !important;
+}
+
